@@ -52,6 +52,9 @@ const FaqcontentwrapboxQ = styled.div`
     display: flex;
     align-items: center;
     cursor: pointer; 
+    .qes{
+        padding-right: 32px;
+    }
 `;
 
 const FaqcontentwrapboxF = styled.div`
@@ -78,10 +81,10 @@ function Faq() {
     };
 
     const place = [
-        ["Q 첫번째 질문", "내용1"],
-        ["Q 두번째 질문", "내용2"],
-        ["Q 세번째 질문", "내용3"],
-        ["Q 네번째 질문", "내용4"]
+        ["Q", "첫번째 질문", "내용1"],
+        ["Q", "두번째 질문", "내용2"],
+        ["Q", "세번째 질문", "내용3"],
+        ["Q", "네번째 질문", "내용4"]
     ]
 
     return (
@@ -92,11 +95,14 @@ function Faq() {
                             
                             <Faqcontentwrapbox>
                                 <FaqcontentwrapboxQ key={index} onClick={() => handleClick(index)}>
-                                    {content[0]}
+                                    <div className="qes">
+                                        {content[0]}
+                                    </div>
+                                    {content[1]}
                                     
                                 </FaqcontentwrapboxQ>
                                 <FaqcontentwrapboxF click={activeIndex === index}>
-                                    {content[1]}
+                                    {content[2]}
                                 </FaqcontentwrapboxF>
                             </Faqcontentwrapbox>
                                 
