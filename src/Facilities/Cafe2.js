@@ -143,14 +143,10 @@ function Cafe2(){
                                 Overview
                             </OverviewCleftc1>
                             <OverviewCleftc2>
-                                스위스 샬레 풍의 넓고 아늑한<br></br>
-                                힐링 카페&레스토랑
+                                대전에서 가장 높은 카페
                             </OverviewCleftc2>
                             <OverviewCleftc3>
-                                아침 햇살이 가장 먼저 비치는 어도원길에서 로미지안을 찾는 이들을 반기는 진한 커피향과 빵굽는 냄새<br></br>
-                                카페 아라미스는 최고급 블랜딩 커피와 정선의 신선한 재료로 만든 샌드위치, 브런치 메누를 제공합니다.<br></br>
-                                은은한 클래식 음악과 함께 책장에 꽃힌 책들을 꺼내 읽으며 자연속에서 여유로움을 느껴보시길<br></br>
-                                바랍니다.
+                                대전 가장 높은 카페에서 멋진 풍경과 자연을 느껴보시길 바랍니다.
                             </OverviewCleftc3>
                         </OverviewCleft>
                         <OverviewCright>
@@ -159,9 +155,7 @@ function Cafe2(){
                                     Local Situation
                                 </OverviewCrightcc1>
                                 <OverviewCrightcc2>
-                                    강원 정선군 북평면
-                                    어도원길 12, 로미지안
-                                    가든
+                                    대전광역시 00구 00동
                                 </OverviewCrightcc2>
                             </OverviewCrightc>
                             <OverviewCrightc>

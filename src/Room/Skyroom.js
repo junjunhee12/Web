@@ -432,7 +432,7 @@ function Skyroom(){
         <>
             <Div>
                 <H4box>
-                    <H4 h1height={h1height} className="center">스카이하우스</H4>
+                    <H4 h1height={h1height} className="center">대전호텔</H4>
                 </H4box>
                 <Div1>
                     <Div1content>
@@ -468,7 +468,7 @@ function Skyroom(){
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
                                             <DivcontentButtomButtomleftbox className="we">Hotel / Size</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>0000평 / 공원포함</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>총0000평 / 공원포함</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
                                             <DivcontentButtomButtomleftbox className="we">Extra Beds</DivcontentButtomButtomleftbox>
@@ -535,8 +535,8 @@ function Skyroom(){
                                             <DivcontentButtomButtomleftbox>대전광역시 서구 000동</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
-                                            <DivcontentButtomButtomleftbox className="we">Size · Type</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>16평형 / 원룸형태의 복층 구조</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox className="we">Hotel / Size</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>총0000평 / 공원포함</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
                                             <DivcontentButtomButtomleftbox className="we">Extra Beds</DivcontentButtomButtomleftbox>
@@ -545,16 +545,16 @@ function Skyroom(){
                                     </DivcontentButtomButtomleft>
                                     <DivcontentButtomButtomright>
                                         <DivcontentButtomButtomleftcontent>
-                                            <DivcontentButtomButtomleftbox className="we">Capacity</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>15:00 - 11:00</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox className="we">Number of rooms</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>0000객실 수</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
-                                            <DivcontentButtomButtomleftbox className="we">Beds</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>16평형 / 원룸형태의 복층 구조</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox className="we">Parking</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>0000대 여유</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
-                                            <DivcontentButtomButtomleftbox className="we">Amenities</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>블루투스 스피커, TV, 캐리어 거치대2개, 헤어드라이기, 샴푸 등</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox className="we">Average price</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>00만원</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                     </DivcontentButtomButtomright>
                                 </DivcontentButtomButtom>
@@ -601,8 +601,8 @@ function Skyroom(){
                                             <DivcontentButtomButtomleftbox>대전광역시 동구 0000동</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
-                                            <DivcontentButtomButtomleftbox className="we">Size · Type</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>16평형 / 원룸형태의 복층 구조</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox className="we">Hotel / Size</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>총0000평 / 공원포함</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
                                             <DivcontentButtomButtomleftbox className="we">Extra Beds</DivcontentButtomButtomleftbox>
@@ -611,16 +611,16 @@ function Skyroom(){
                                     </DivcontentButtomButtomleft>
                                     <DivcontentButtomButtomright>
                                         <DivcontentButtomButtomleftcontent>
-                                            <DivcontentButtomButtomleftbox className="we">Capacity</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>15:00 - 11:00</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox className="we">Number of rooms</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>0000객실 수</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
-                                            <DivcontentButtomButtomleftbox className="we">Beds</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>16평형 / 원룸형태의 복층 구조</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox className="we">Parking</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>0000대 여유</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                         <DivcontentButtomButtomleftcontent>
-                                            <DivcontentButtomButtomleftbox className="we">Amenities</DivcontentButtomButtomleftbox>
-                                            <DivcontentButtomButtomleftbox>블루투스 스피커, TV, 캐리어 거치대2개, 헤어드라이기, 샴푸 등</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox className="we">Average price</DivcontentButtomButtomleftbox>
+                                            <DivcontentButtomButtomleftbox>00만원</DivcontentButtomButtomleftbox>
                                         </DivcontentButtomButtomleftcontent>
                                     </DivcontentButtomButtomright>
                                 </DivcontentButtomButtom>

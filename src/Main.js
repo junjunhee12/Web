@@ -6,10 +6,13 @@ import Facilities from "./Facilities/Facilities";
 import Groupevents from "./GROUPEVENTS/Groupevents";
 import Guide from "./Guide/Guide";
 import About from "./About/About";
+// import ScrollTop from "./ScrollTop";
+import ScrollToTop from "./ScrollTop";
 
 function Main(){
     return(
         <BrowserRouter>
+        <ScrollToTop/>
             <Routes>
                 <Route path="/" element={<App />}>
                     <Route index element={<Home />}/>

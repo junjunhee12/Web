@@ -25,9 +25,9 @@ function Groupevents(){
         setActiveIndex(newIndex);
     };
     const content = [
-        "기업연수/워크샵",
-        "웨딩/가족행사",
-        "웰니스 프로그램",
+        "완벽한 웨딩",
+        "인생 웨딩",
+        "각종 행사",
         "공연"
     ]
 
@@ -44,10 +44,10 @@ function Groupevents(){
                     
                     <FacilitiesC>
                         <FacilitiesCH>
-                            Group Events
+                            Wedding/Show
                         </FacilitiesCH>
                         <FacilitiesCB>  
-                            로미지안 가든의 특별한 이벤트를 통해 함께하는 사람들과 즐거운 시간을 보내세요 
+                            대전에서의 특별한 웨딩과 공연을 체험해 보는 시간
                         </FacilitiesCB>
                         <FacilitiesCFB>
                             {

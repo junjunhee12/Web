@@ -82,10 +82,9 @@ function Workshop(){
                     <Groupwrapleft>
                         <Groupwrapleftbox>
                             <Groupwrapleftboxwrap1>
-                                <GroupH3>문의내용</GroupH3>
+                                <GroupH3>결혼식장1</GroupH3>
                                 <GroupP>
-                                    로미지안 가든은 기업연수 / 워크샵을 위한 단체 대관이 가능합니다.<br></br>
-                                    프로그램 접수 및 관련 문의는 아래 담당 부서로 연락 주시기 바랍니다.
+                                    완벽한 웨딩을 원하는 당신!! 아래의 전회번호로 상담주시길 바랍니다.
                                 </GroupP>
                             </Groupwrapleftboxwrap1>
                             <Groupwrapleftboxwrap2>

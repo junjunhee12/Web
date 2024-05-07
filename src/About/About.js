@@ -10,7 +10,8 @@ import Glamping from "../assets/글램핑.jpg"
 import styled from "styled-components"
 import { useState } from "react"
 import Garden from "./Garden"
-import Time from "./Time"
+// import Time from "./Time"
+import Faq from "./Faq"
 
 export const AboutbodyContainer =styled.div`
     width: 100%;
@@ -99,19 +100,16 @@ function About(){
     };
     const place = [
         "로미지안 가든",
-        "운영시간",
-        "교통",
-        "뉴스",
-        "주변관광",
-        "공지사항",
         "FAQ",
+        "공지사항",
+        "운영시간",
     ]
 
     const content = [
-        <Garden />, <Time />
+        <Garden />, <Faq />
     ]
     const img = [
-        가든, 요금, 교통,가든, 요금, 교통,질문
+        가든, 질문, 교통,가든
     ]
     return(
         <GlampingroomContainer>

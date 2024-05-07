@@ -131,7 +131,7 @@ function Room(){
                 <RoomsBox>
                     <RoomBox>
                             <RoomBoxcontent className="Room">Hotel/Glamping</RoomBoxcontent>
-                            <RoomBoxcontent skyImg={skyImg} className="backcolor">백두산의 우아한 곡선과 잔잔한 감동을 주는 풍경을 감상하며 여행의 하루를 특별하게 마루리하세요.</RoomBoxcontent>
+                            <RoomBoxcontent skyImg={skyImg} className="backcolor">대전의 호텔과 글램핑을 만나보세요</RoomBoxcontent>
                     </RoomBox>
                     
                     <RoomsBoxContent>
@@ -140,8 +140,8 @@ function Room(){
                                 {/* <RoomheadcontainerIMGwrap src={sky1}/> */}
                                 {skyImg ? (<RoomheadcontainerIMGwrap src={sky1}/>) :""}
                                 <Skyhouse>
-                                    스카이<br></br>
-                                    하우스
+                                    대전
+                                    호텔
                                 </Skyhouse>
                                 
                             </Rooms>
@@ -150,7 +150,7 @@ function Room(){
                             <Rooms className={mainImg ? "bordernone" : ""} onClick={handleOnClickGlamping}>
                                 {mainImg ? (<RoomheadcontainerIMGwrap src={불}/>) :""}
                                 <Skyhouse>
-                                    글램핑
+                                    대전 글램핑
                                 </Skyhouse>
                                 
                             </Rooms>

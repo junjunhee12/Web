@@ -79,7 +79,9 @@ export const FacilitiesCB = styled.div`
 export const FacilitiesCF = styled.div`
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 1rem;
 `
 // FacilitiesContainerFooterContiner
 export const FacilitiesCFC = styled.div`
@@ -140,13 +142,11 @@ function Facilities(){
         setActiveIndex(newIndex);
     };
     const content = [
-        "카페 아라미스 Ⅰ",
-        "카페 아라미스 Ⅱ",
-        "야마노우에",
-        `몽콕 바베큐장 까르페디엠 클럽`,
-        "베고니아 홀",
-        "지안아트홀",
-        "기타",
+        "00 카페",
+        "01 카페",
+        "000카페",
+        `001카페`,
+        "0002카페",
     ]
 
     const maincontent = [
@@ -156,7 +156,7 @@ function Facilities(){
    
 
     const img = [
-        카페아라미스, 카페아라미스2, 파스타1, 파스타2, 샌드위치1, 샌드위치2, 샌드위치3
+        카페아라미스, 카페아라미스2, 파스타1, 파스타2, 샌드위치1,
     ]
 
     const swiperimg = [
@@ -165,8 +165,6 @@ function Facilities(){
         [파스타1, 파스타2, 샌드위치1, 샌드위치2, 샌드위치3, 와플],
         [카페1, 카페2, 카페3, 카페4, 카페5, 카페3],
         [카페1, 카페2, 카페3, 카페4, 카페5, 카페3],
-        [파스타1, 파스타2, 샌드위치1, 샌드위치2, 샌드위치3, 와플],
-        [카페1, 카페2, 카페3, 카페4, 카페5, 카페3]
     ]
     return(
         <>
@@ -175,10 +173,10 @@ function Facilities(){
                     
                     <FacilitiesC>
                         <FacilitiesCH>
-                            Facilities
+                            Coffee
                         </FacilitiesCH>
                         <FacilitiesCB>  
-                            로미지안 가든의 특별한 이벤트를 통해 함께하는 사람들과 즐거운 시간을 보내세요.
+                            대전에 있는 카페들을 소개 합니다.
                         </FacilitiesCB>
                         <FacilitiesCF>
                             {

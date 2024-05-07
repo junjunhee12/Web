@@ -16,10 +16,10 @@ function Wedding(){
                     <Groupwrapleft>
                         <Groupwrapleftbox>
                             <Groupwrapleftboxwrap1>
-                                <GroupH3>문의내용</GroupH3>
+                                <GroupH3>결혼식장2</GroupH3>
                                 <GroupP>
-                                로미지안 가든은 웨딩 / 가족행사를 위한 넓은 홀이 마련되어 있습니다.<br></br>
-                                프로그램 접수 및 문의는 연락처를 통해 남겨주세요.
+                                인생웨딩을 원하시는 모든 분들은 아래 번호로 전화주시길 바랍니다.
+                               
                                 </GroupP>
                             </Groupwrapleftboxwrap1>
                             <Groupwrapleftboxwrap2>

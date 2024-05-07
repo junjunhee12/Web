@@ -272,10 +272,10 @@ function Glampingroom(){
                 
                 <Glampingroombottomwrap>
                     <GlampingroombottomwrapContent>
-                        <H3>철인의 마을</H3>
+                        <H3>대전 캠핑장</H3>
                         <P>
-                            시간의 속박에서 벗어나 숲 속에서 나를 만나는 시간<br></br>
-                            자연의 위로를 받으며 오롯이 깊은 마음의 평온을 찾는다.
+                            소중한 사람들과 행복한 시간을 보내 수 있는 곳<br></br>
+                            캠핑장만의 감성과 낭만을 경험해 보세요
                         </P>
                         <GlampingroombottomwrapContentImgbox>
                         <Swiper
@@ -315,23 +315,21 @@ function Glampingroom(){
                             <InformationContainer height={height} className="scroll1">
                             <Information>
                                 <Informationleft>
-                                    객실정보
+                                    캠핑장 정보
                                 </Informationleft>
                                 <InformationMid>
-                                    <div>기준 인원: 3인 / 최대 3인 (인원 추가 불가)</div>
-                                    <div>독채형 (더블 베드 1 + 싱글 베드 1)</div>
-                                    <div>객실 내 욕실 구비, 공용 화장실</div>
-                                    <div>취사 가능</div>
+                                    <div>위치 : 대전광역시 00구 00동</div>
+                                    <div>면적 : 00000평</div>
+                                    <div>주차 가능 수  : 0000대</div>
                                 </InformationMid>
                                 <Informationright>
-                                    <div>BBQ 그릴 세트 + 가스 추가 : 30,000 원</div>
-                                    <div>퇴실 시간 연장 : 50,000 원 (4시간)</div>
-                                    <div>객실 정돈 미 이행 시 : 20,000 원</div>
-                                    <div>집기류 파손 등 : 실비</div>
+                                    <div>총 글램핑 : 0000개</div>
+                                    <div>평균 가격 : 00만원</div>
+                                    <div>예약 가능</div>
                                 </Informationright>
                             </Information>
                             <Reservation>
-                                <Button>객실예약</Button>
+                                <Button>홈페이지 바로가기</Button>
                             </Reservation>
                         </InformationContainer>
                         </InformationContainerBox>
@@ -343,10 +341,10 @@ function Glampingroom(){
                 <GlampingroomContainerCentent className="background">
                 <Glampingroombottomwrap>
                     <GlampingroombottomwrapContent>
-                        <H3>문학인의 마을</H3>
+                        <H3>대전의 글램핑</H3>
                         <P>
-                            시간의 속박에서 벗어나 숲 속에서 나를 만나는 시간<br></br>
-                            자연의 위로를 받으며 오롯이 깊은 마음의 평온을 찾는다.
+                            다양한 사람들과 함께 즐길수 있는 장소<br></br>
+                            사람들과 즐거운 대화와 게임을 경험해보세요
                         </P>
                         <GlampingroombottomwrapContentImgbox>
                         <Swiper
@@ -390,20 +388,18 @@ function Glampingroom(){
                                     객실정보
                                 </Informationleft>
                                 <InformationMid>
-                                    <div>기준 인원: 3인 / 최대 3인 (인원 추가 불가)</div>
-                                    <div>독채형 (더블 베드 1 + 싱글 베드 1)</div>
-                                    <div>객실 내 욕실 구비, 공용 화장실</div>
-                                    <div>취사 가능</div>
+                                    <div>위치 : 대전광역시 00구 00동</div>
+                                    <div>면적 : 00000평</div>
+                                    <div>주차 가능 수 : 0000대</div>
                                 </InformationMid>
                                 <Informationright>
-                                    <div>BBQ 그릴 세트 + 가스 추가 : 30,000 원</div>
-                                    <div>퇴실 시간 연장 : 50,000 원 (4시간)</div>
-                                    <div>객실 정돈 미 이행 시 : 20,000 원</div>
-                                    <div>집기류 파손 등 : 실비</div>
+                                    <div>총 글램핑 : 0000개</div>
+                                    <div>평균 가격 : 00만원</div>
+                                    <div>예약 가능</div>
                                 </Informationright>
                             </Information>
                             <Reservation>
-                                <Button>객실예약</Button>
+                                <Button>홈패이지 바로가기</Button>
                             </Reservation>
                         </InformationContainer>
                         </InformationContainerBox>

@@ -196,7 +196,7 @@ function Footer(){
             <Foot>
                 <Footwrap>
                     <Footwrapdiv>
-                        Copyright, All rights reserved.
+                        전준희
                     </Footwrapdiv>
                 </Footwrap>
                 <Footwrap>
