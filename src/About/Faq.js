@@ -6,6 +6,10 @@ const FaqContainer = styled.div`
     height: 100%;
     /* padding-top: 100px; */
     padding: 100px 0;
+    .header{
+        display: flex;
+        justify-content: center;
+    }
 `;
 
 const Faqcontent = styled.div`
@@ -71,6 +75,7 @@ const FaqcontentwrapboxF = styled.div`
     align-items: center;
     height: ${({ click }) => (click ? "400px" : "0")}; 
     transition: height 0.5s ease-in-out; 
+    font-size: 48px;
 `;
 
 function Faq() {
@@ -81,14 +86,15 @@ function Faq() {
     };
 
     const place = [
-        ["Q", "첫번째 질문", "내용1"],
-        ["Q", "두번째 질문", "내용2"],
-        ["Q", "세번째 질문", "내용3"],
-        ["Q", "네번째 질문", "내용4"]
+        ["Q", "참고한 Site ?", "로미지안 가든을 보면서 만들었으며 height, font-size, font-weight, font-family 이외에는 전부 제가 생각해서 만들었습니다."],
+        ["Q", "내용을 대전에 대한 소개로 만들어준 이유?", "처음에는 전부 똑같이 만들어 주었지만 만들고 나서 이대로 사용이 가능한가? 생각이 들었기 때문에 내용은 다르게 주었으며 레이아웃을 살짝 다르게 만들었습니다.( 모든 곳이 다르진 않음! )."],
+        ["Q", "메인화면 상단에 클릭버튼을 만든 이유?", " 네!! 맞습니다.... 한번 만들어 보고 싶었고 적용시켜 보았습니다. ㅎㅎ."],
+        ["Q", "만족하지 못하는 부분이 있는지?", " 랜더링과 변수명 그리고 컴포넌트로 쪼개는 힘이 아직 부족한거 같아 다음에는 그 부분을 조금 더 신경쓰고 공부하면서 만들어야겠다고 생각했습니다."]
     ]
 
     return (
         <FaqContainer>
+            <div className="header">질문에 대한 답변을 작성한 곳 입니다.</div>
             <Faqcontent>
                 <Faqcontentwrap>
                         {place.map((content,index) =>(

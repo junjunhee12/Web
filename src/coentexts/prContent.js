@@ -9,6 +9,13 @@ export function PrContentProvider({ defaultValue = "ko", children }) {
     const [mainImg, setMainImg] = useState(false);
     const [skyImg, setSkyImg] = useState(false)
     const [ false1, setFalse1] = useState(false)
+
+    const [index, setIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(0);
+    const handleIndexChange = (newIndex) => {
+        setIndex(newIndex);
+        setActiveIndex(newIndex);
+    };
     const handleFalse = ()=>{
       setFalse1(true)
     }
@@ -29,7 +36,10 @@ export function PrContentProvider({ defaultValue = "ko", children }) {
         setMainImg,
         skyImg,
         false1,
-        handleFalse
+        handleFalse,
+        index,
+        activeIndex,
+        handleIndexChange
       }}
     >
       {children}
