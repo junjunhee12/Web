@@ -51,7 +51,7 @@ const ContainerHead = styled.div`
 const ContainerFoot = styled.div`
   width: 100%;
   height: 50vh;
-  background-color: white;
+  background-color: black;
   position: absolute;
   left: 0;
   bottom: ${({movie}) => (movie ? "-100%" : "0")};
@@ -225,12 +225,12 @@ function Cover(){
     
             </ContainerFoot>
             
-            <ContainerHead1 btn={btn} movie1={movie1}>
+            {/* <ContainerHead1 btn={btn} movie1={movie1}>
     
             </ContainerHead1>
             <ContainerFoot1 btn={btn} movie1={movie1}>
     
-            </ContainerFoot1>
+            </ContainerFoot1> */}
     
             <ContainerHead2 movie={movie}>
     
