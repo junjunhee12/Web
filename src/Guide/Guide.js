@@ -179,7 +179,7 @@ function Guide(){
                             대전 즐길거리
                         </FacilitiesCH>
                         <FacilitiesCB>  
-                            가리왕산의 우아한 곡선과 잔잔한 감동을 주는 풍경의 뷰를 감상하며 여행의 하루를 특별하게 마무리하세요.  
+                            대전에서의 즐길거리들을 한꺼번에 보여주는 곳
                         </FacilitiesCB>
                         <FacilitiesCFB>
                             <FacilitiesCFC>
