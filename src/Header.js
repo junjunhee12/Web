@@ -89,10 +89,17 @@ const Containr = styled.div`
             left: 0;
             top: ${({ isSidebarOpen }) => (isSidebarOpen ? "50%" : "100%")};
         }
+
+        
+        @media (max-width: 1220px) {
+            right: 0;
+        }
     }
 
     position: fixed;
     z-index: 901;
+    
+    
 `
 const NavLinks = styled.div`
     display: flex;
@@ -101,6 +108,9 @@ const NavLinks = styled.div`
     /* background-color: red; */
     justify-content: space-between;
     
+    @media (max-width: 1220px) {
+            display: none;
+        }
 `;
 
 

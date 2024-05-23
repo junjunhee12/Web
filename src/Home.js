@@ -85,8 +85,6 @@ const Motionhouse = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: ;
-     */
     align-items: center;
     background-color: #f3f3f3;
 `
